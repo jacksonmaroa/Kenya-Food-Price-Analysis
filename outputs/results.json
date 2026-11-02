@@ -1,0 +1,83 @@
+{
+  "raw_rows": 28463,
+  "raw_markets": 226,
+  "rows_convertible_units": 27817,
+  "rows_non_weight_units": 646,
+  "rows_wholesale_removed": 4548,
+  "grain_retail_rows": 4107,
+  "grain_retail_markets": 198,
+  "outliers_flagged": 1,
+  "clean_market_months": 3889,
+  "panel_markets": {
+    "Maize": [
+      "Garissa",
+      "Kajiado",
+      "Kilifi",
+      "Kitui",
+      "Lodwar (Turkana)",
+      "Mandera",
+      "Marigat (Baringo)",
+      "Marsabit"
+    ],
+    "Beans": [
+      "Kajiado",
+      "Kilifi",
+      "Kitui",
+      "Marigat (Baringo)"
+    ]
+  },
+  "panel_window": [
+    "2015-01",
+    "2020-12"
+  ],
+  "seasonality": {
+    "Maize": {
+      "peak_month": 5,
+      "peak_value": 104.3,
+      "low_month": 9,
+      "low_value": 97.7,
+      "swing_pct": 6.7
+    },
+    "Beans": {
+      "peak_month": 7,
+      "peak_value": 103.2,
+      "low_month": 2,
+      "low_value": 95.4,
+      "swing_pct": 8.2
+    }
+  },
+  "region_compare": {
+    "from": "2024-09",
+    "table": [
+      {
+        "admin1": "Rift Valley",
+        "median_price": 62.0,
+        "markets": 66
+      },
+      {
+        "admin1": "North Eastern",
+        "median_price": 70.0,
+        "markets": 29
+      },
+      {
+        "admin1": "Eastern",
+        "median_price": 76.0,
+        "markets": 26
+      },
+      {
+        "admin1": "Coast",
+        "median_price": 80.0,
+        "markets": 15
+      }
+    ]
+  },
+  "forecast": {
+    "test_months": 12,
+    "test_from": "2020-01-01",
+    "test_to": "2020-12-01",
+    "mae_ridge": 2.53,
+    "mae_naive": 1.89,
+    "mae_seasonal_naive": 5.93,
+    "unit": "index points (index = 100 is each market's average)"
+  }
+}
